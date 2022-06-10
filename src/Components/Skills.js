@@ -3,25 +3,17 @@ import React from 'react';
 const Skills = () => {
     return (
         <div className='lg:px-44'>
-            <h1 className='text-3xl font-semibold mt-5 lg:mt-12 '>My Skills</h1>
-            <progress class="progress w-56"></progress>
-            <br></br>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-28'>
-            <div className='mt-5 lg:mt-24'>
-            HTML <progress class="progress progress-error w-56" value="80" max="100"></progress>
-            <br></br>
-            CSS <progress class="progress progress-error w-56" value="80" max="100"></progress>
-            <br></br>
-            Javascript <progress class="progress progress-error w-56" value="70" max="100"></progress>
-            <br></br>
-            React <progress class="progress progress-error w-56" value="70" max="100"></progress>
-            <br></br>
-            MongoDB <progress class="progress progress-error w-56" value="56" max="100"></progress>
-            </div>
-            <div>
-                <img style={{"width":"456px"}} src='https://www.bizzmine.com/images/articles/careers/Front-end-developer.png' alt='image'></img>
-            </div>
-            </div>
+            <h1 className='text-4xl font-senibold p-12 text-white font-sans'>My Skills</h1>
+            <progress class="progress w-56 mb:4"></progress>
+           <div className='grid grid-cols-2 lg:grid-cols-4 mt-10'>
+           <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
+            <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" />
+            <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://static.javatpoint.com/images/javascript/javascript_logo.png" />
+            <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
+            <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png" />
+            <img style={{"width":"96px"}} className="mask mask-squircle bg-slate-500 transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-500 duration-400" src="https://assets-global.website-files.com/6009f6f109d51e60b911ba53/60232c7fee9f278674db9c2c_9kib-354x415-unnamed-mongodb-logo-sv-11562860723mgempnmrq3.png" />
+           </div>
+            
         </div>
     );
 };
