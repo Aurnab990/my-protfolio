@@ -13,8 +13,8 @@ const HeaderTwo = () => {
                         <h1 class="text-3xl text-white font-semibold mt-4">a FullStack Web Developer</h1>
                         
                         <div className=' p-5 pl-24 lg:pl-44 flex gap-5'>
-                        <button class="btn btn-outline btn-success transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-400">hire me</button>
-                        <button class="btn btn-outline btn-warning transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-400">Download cv</button>
+                        <a target="blank" href="https://www.linkedin.com/in/aurnub-das-272337197/"><button class="btn btn-outline btn-success transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-400">More</button></a>
+                        <a target="blank" href="https://drive.google.com/file/d/1Hi0rDbxqwG7W1k_RAuSyGVFVLZq1pjbi/view?usp=sharing"><button class="btn btn-outline btn-warning transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-400">Download cv</button></a>
                         </div>
                     </div>
                 </div>

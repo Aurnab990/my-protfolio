@@ -36,7 +36,7 @@ const Projects = () => {
                     <h2 class="card-title">Rock Paper Scissors</h2>
                     <p>Designed and developed a web game.</p>
                     <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Details</button>
+                    <Link to='/rockpaper'><button class="btn btn-primary">Details</button></Link>
                     </div>
                 </div>
             </div>

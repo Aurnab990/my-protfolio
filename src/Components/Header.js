@@ -35,7 +35,7 @@ const Header = () => {
                 <div class="navbar-end">
                     <div class="indicator">
                         <span class="indicator-item indicator-start badge badge-secondary"></span>
-                        <div class="grid   place-items-center"><a href='https://drive.google.com/file/d/1LlmpKmo02MfUOjjoDGSw4h8GLZWBM0nd/view?usp=sharing' class="btn">Download Cv</a></div>
+                        <div class="grid   place-items-center"><a href='https://drive.google.com/file/d/1Hi0rDbxqwG7W1k_RAuSyGVFVLZq1pjbi/view?usp=sharing' class="btn">Download Resume</a></div>
                     </div>
 
                 </div>

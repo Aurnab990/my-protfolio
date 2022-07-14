@@ -9,6 +9,7 @@ import About from './Components/About';
 import Books from './Components/Books';
 import TeacherDetails from './Components/TeacherDetails';
 import Contact from './Components/Contact';
+import Rockpaper from './Components/Rockpaper';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/bookDetails' element={<Books></Books>}></Route>
         <Route path='/TeacherDetails' element={<TeacherDetails></TeacherDetails>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/rockpaper' element={<Rockpaper></Rockpaper>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
